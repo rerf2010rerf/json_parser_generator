@@ -2,6 +2,10 @@
 
 This script generates statements for Pandas to extract nested values from JSON objects. It may be used in jupyter notebook and requires ipywidgets to be enabled.
 
+# Installation
+To install the script with pip run  
+`pip install git+https://github.com/rerf2010rerf/json_parser_generator.git`
+
 # Usage
 ```python:
 from json_parsgen import json_parsgen
