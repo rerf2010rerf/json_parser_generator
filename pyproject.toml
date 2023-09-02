@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json_parsgen"
+version = "0.0.1"
+authors = [
+  { name="Nikolai Kobalo", email="rerf2010rerf@gmail.com" },
+]
+description = "JSON parser generator for Pandas"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "ipywidgets",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rerf2010rerf/json_parser_generator"
+"Bug Tracker" = "https://github.com/rerf2010rerf/json_parser_generator/issues"
